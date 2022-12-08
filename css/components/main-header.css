@@ -6,10 +6,15 @@
   margin: auto;
 }
 
-.main-header .-logo {
+.main-header .logo {
   display: flex;
   align-items: center;
 }
+.main-header .logo .img {
+  width: 60px;
+  height: 60px;
+}
+
 .main-header .navigation {
   display: flex;
   justify-content: space-between;
@@ -20,13 +25,22 @@
   font-weight: 500;
 }
 
-.main-header .action {
+.seta {
+  font-size: 24px;
+  margin-left: 5px;
+  transform: rotate(90deg);
+  transition: 300ms;
+}
+
+.main-header .navigation .action {
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
   color: var(--color-black-first);
   transition: 50ms linear;
 }
 
-.main-header .action:hover {
+.main-header .navigation .action:hover {
   transition: 50ms linear;
   color: var(--color-link-first);
   transform: scale(1.04);
