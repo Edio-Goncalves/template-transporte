@@ -1,0 +1,54 @@
+.main-contact {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1250px;
+  margin: auto;
+  padding-right: 10px;
+}
+
+.main-contact .contact {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: var(--color-font-first);
+}
+.main-contact .contact .icon {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.main-contact .contact .icon.-ph {
+  margin-right: 30px;
+}
+
+.main-contact .contact .icon.-em .link {
+  text-decoration: none;
+  color: var(--color-font-first);
+  transition: 0.2s;
+}
+
+.main-contact .contact .icon.-em .link:hover {
+  color: var(--color-link-first);
+}
+
+.main-contact .contact .icon.-ph::before {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-right: 20px;
+
+  background-image: url(../../assets/icon/Icon-ph.png);
+}
+
+.main-contact .contact .icon.-em::before {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-right: 20px;
+
+  background-image: url(../../assets/icon/Icon-em.png);
+}
