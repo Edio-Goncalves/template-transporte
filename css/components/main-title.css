@@ -1,12 +1,25 @@
 .main-title {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .main-title.-logo {
-  font-family: "Poppins", sans-serif;
   font-size: 40px;
-  font-weight: 500;
   margin-left: 10px;
+}
+
+.main-title.-first {
+  font-size: 32px;
+  margin-left: 10px;
+}
+
+.main-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.main-subtitle.-first {
+  font-size: 16px;
 }

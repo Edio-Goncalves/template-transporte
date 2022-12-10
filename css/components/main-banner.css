@@ -1,5 +1,10 @@
 .main-banner {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
 }
+
 .main-banner .wrapper-banner .main-bg {
   width: 100%;
 }
