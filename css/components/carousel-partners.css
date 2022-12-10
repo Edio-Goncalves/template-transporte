@@ -1,7 +1,12 @@
-.main-partners {
+.carousel-partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
   margin-top: 60px;
   text-align: center;
   height: 180px;
-  border-top: 2px solid grey;
-  border-bottom: 2px solid grey;
+  border-top: 2px solid var(--color-black-second);
+  border-bottom: 2px solid var(--color-black-second);
 }

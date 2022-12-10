@@ -1,6 +1,9 @@
 .main-box {
   display: flex;
   flex-direction: column;
+}
+
+.main-box.-first {
   align-items: center;
   text-align: center;
 
@@ -9,11 +12,18 @@
   right: 10%;
   top: 10%;
 }
-
-.main-box .main-title {
-  margin-bottom: 30px;
+.main-box.-first .main-button {
+  margin-top: 25px;
 }
 
-.main-box .main-subtitle {
-  margin-bottom: 30px;
+.main-box.-second {
+  margin-top: 85px;
+  margin-bottom: 85px;
+  max-width: 25%;
+}
+.main-box.-second .text {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--color-black-second);
 }
