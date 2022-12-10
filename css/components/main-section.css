@@ -1,0 +1,10 @@
+.main-section {
+  display: flex;
+}
+
+.main-section.-first {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1250px;
+  margin: auto;
+}
