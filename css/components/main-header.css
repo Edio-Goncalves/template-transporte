@@ -4,6 +4,7 @@
   align-items: center;
   max-width: 1250px;
   margin: auto;
+  margin-bottom: 35px;
 }
 
 .main-header .logo {
@@ -25,23 +26,35 @@
   font-weight: 500;
 }
 
-.seta {
+.main-header .navigation .action {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-black-first);
+  transition: 100ms linear;
+}
+
+.main-header .navigation .action .seta {
   font-size: 24px;
   margin-left: 5px;
   transform: rotate(90deg);
   transition: 300ms;
 }
 
-.main-header .navigation .action {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: var(--color-black-first);
-  transition: 50ms linear;
-}
-
 .main-header .navigation .action:hover {
-  transition: 50ms linear;
+  transition: 100ms linear;
   color: var(--color-link-first);
   transform: scale(1.04);
+}
+
+.main-header .navigation .action.main-button {
+  color: var(--color-first);
+  margin-left: 70px;
+}
+
+.main-header .navigation .action.main-button:hover {
+  color: var(--color-second);
+  background: var(--color-second-opacity);
+
+  border-radius: 10px;
 }
