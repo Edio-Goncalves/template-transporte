@@ -1,12 +1,20 @@
 .main-section {
   display: flex;
-}
-
-.main-section.-first {
-  display: flex;
   justify-content: space-between;
   max-width: 1250px;
   margin: auto;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.main-section.-description {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  background-color: pink;
+}
+
+.main-section.-principles {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  background-color: aquamarine;
 }

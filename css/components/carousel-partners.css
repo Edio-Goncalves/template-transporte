@@ -9,3 +9,13 @@
   text-align: center;
   height: 180px;
 }
+
+.carousel-partners .main-title.-gray.construction {
+  display: flex;
+}
+
+.carousel-partners img {
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

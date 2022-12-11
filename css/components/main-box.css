@@ -1,11 +1,9 @@
 .main-box {
   display: flex;
+  flex-direction: column;
 }
 
-.main-box.-first {
-  display: flex;
-  flex-direction: column;
-
+.main-box.-banner {
   align-items: center;
   text-align: center;
 
@@ -14,11 +12,6 @@
   right: 10%;
   top: 10%;
 }
-.main-box.-first .main-button {
+.main-box.-banner .main-button {
   margin-top: 25px;
-}
-
-.main-box.-second {
-  display: flex;
-  flex-direction: column;
 }
