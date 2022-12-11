@@ -27,6 +27,20 @@
   color: var(--color-black-second);
 }
 
+.main-title.-principles {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-black-first);
+  padding-bottom: 60px;
+}
+
+.main-title.-orange {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--color-second);
+  padding-bottom: 60px;
+}
+
 /* Subtitle */
 .main-subtitle {
   font-family: "Poppins", sans-serif;
