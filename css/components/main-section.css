@@ -30,3 +30,9 @@
   background-position: center 25%;
   background-size: 50%;
 }
+
+.main-section.-tool {
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+  flex-direction: column;
+}
