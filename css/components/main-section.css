@@ -20,6 +20,22 @@
   padding-bottom: 2.5%;
 }
 
+.main-section.-localization {
+  justify-content: center;
+  background-color: var(--color-font-first);
+  max-width: 100%;
+  padding-top: 2.5%;
+  padding-bottom: 4%;
+}
+
+.main-section.-benefits {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4%;
+  padding-bottom: 2.5%;
+  background-color: var(--color-third);
+}
+
 .flex-direction {
   /* aqui consertar !!!!!!!!!!!!! */
   display: flex;
