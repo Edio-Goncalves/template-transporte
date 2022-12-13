@@ -1,0 +1,20 @@
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-wrapper.-arrow {
+  background-image: url(../../assets/img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  background-size: 50%;
+}
+
+.main-wrapper.-benefits {
+  flex-wrap: wrap;
+  row-gap: 3vw;
+}
+
+.main-wrapper.-support {
+  padding-bottom: 6.5vw;
+}

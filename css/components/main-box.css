@@ -15,3 +15,9 @@
 .main-box.-banner .main-button {
   margin-top: 25px;
 }
+
+.main-box.-principles {
+  width: 80%;
+  font-size: 18px;
+  padding-top: 10%;
+}

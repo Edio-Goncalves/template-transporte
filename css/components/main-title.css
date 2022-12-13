@@ -19,6 +19,9 @@
 .main-title.-second {
   font-size: 20px;
   line-height: 24px;
+  font-weight: 600;
+  color: var(--color-font-first);
+  padding-bottom: 1vw;
 }
 
 .main-title.-gray {
@@ -30,7 +33,7 @@
 .main-title.-third {
   font-size: 36px;
   font-weight: 700;
-  color: var(--color-black-first);
+  color: var(--color-font-first);
   padding-bottom: 5%;
 }
 

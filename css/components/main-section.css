@@ -12,8 +12,7 @@
   padding-bottom: 2.5%;
 }
 
-.main-section.-principles {
-  display: flex;
+.main-section.-center {
   flex-direction: column;
   align-items: center;
   padding-top: 2.5%;
@@ -26,17 +25,6 @@
   max-width: 100%;
   padding-top: 2.5%;
   padding-bottom: 4%;
-}
-
-.flex-direction {
-  /* aqui consertar !!!!!!!!!!!!! */
-  display: flex;
-  justify-content: space-between;
-
-  background-image: url(../../assets/img/arrow.png);
-  background-repeat: no-repeat;
-  background-position: center 25%;
-  background-size: 50%;
 }
 
 .main-section.-tool {
@@ -57,4 +45,19 @@
   max-width: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.main-section.-support {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  margin-bottom: 6vw;
+  background-image: url(../../assets/img/Globalization.png);
+  background-repeat: no-repeat;
+  background-position: 50% 65%;
+  background-size: 40%;
+
+  position: relative;
 }
