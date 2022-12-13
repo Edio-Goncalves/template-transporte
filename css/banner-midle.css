@@ -1,0 +1,23 @@
+.banner-midle {
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/img/bkg_flag.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.banner-midle .wrapper {
+  max-width: 1250px;
+}
+
+.banner-midle .wrapper .main-title {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  max-width: 55%;
+}
+
+.banner-midle .wrapper .main-subtitle {
+  font-size: max(15px, 1vw);
+  width: 50%;
+  padding-bottom: 2vw;
+}
