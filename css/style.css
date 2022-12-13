@@ -1,1 +1,21 @@
-/* Start fulfillment tool */
+/* Start benefits */
+.wrapper-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3vw;
+  justify-content: space-between;
+}
+.wrapper-box {
+  display: flex;
+  width: 47%;
+}
+
+.wrapper-box .align-self {
+  align-self: center;
+  margin-left: 7%;
+}
+
+.wrapper-box .align-self .main-title {
+  font-weight: 700;
+  padding-bottom: 3%;
+}

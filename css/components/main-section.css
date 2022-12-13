@@ -28,14 +28,6 @@
   padding-bottom: 4%;
 }
 
-.main-section.-benefits {
-  flex-direction: column;
-  align-items: center;
-  padding-top: 4%;
-  padding-bottom: 2.5%;
-  background-color: var(--color-third);
-}
-
 .flex-direction {
   /* aqui consertar !!!!!!!!!!!!! */
   display: flex;
@@ -51,4 +43,18 @@
   padding-top: 5%;
   padding-bottom: 2.5%;
   flex-direction: column;
+}
+
+.main-section.-benefits {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: var(--color-third);
+}
+
+.main-section.banner-midle {
+  max-width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
