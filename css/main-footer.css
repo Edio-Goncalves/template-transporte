@@ -2,7 +2,6 @@
   display: flex;
   align-content: flex-end;
   padding: 10px;
-  width: 1250px;
 }
 
 .box-footer {
@@ -10,25 +9,76 @@
   justify-content: space-between;
   width: 100%;
   padding: 10px;
+  position: relative;
 }
 
 .box-footer .box-f.footerLogo .-logo {
-  background-color: aquamarine;
   display: flex;
   align-items: center;
 }
 .box-footer .box-f.footerLogo .-logo .height {
   height: 40px;
   width: 40px;
+  margin-right: 10px;
 }
 
-.box-footer .footerLogo .-logo {
-  width: 40px;
-  height: 40px;
+.box-f.footerLogo {
+  width: 40%;
 }
 
-.box-f {
-  width: 23%;
+.box-f .mediasFooter {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* medias */
+.mediasFooter .md {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: 200ms linear;
+}
+
+.mediasFooter .fc {
+  background-image: url(../assets/icon/fc.png);
+}
+.mediasFooter .fc:hover {
+  transform: scale(1.05);
+}
+.mediasFooter .tw {
+  background-image: url(../assets/icon/tw.png);
+}
+.mediasFooter .tw:hover {
+  transform: scale(1.05);
+}
+.mediasFooter .in {
+  background-image: url(../assets/icon/in.png);
+}
+.mediasFooter .in:hover {
+  transform: scale(1.05);
+}
+.mediasFooter .lk {
+  background-image: url(../assets/icon/lk.png);
+}
+.mediasFooter .lk:hover {
+  transform: scale(1.05);
+}
+
+/* columns */
+.box-f.footerServices {
+  width: 20%;
+}
+.box-f.footerCompany {
+  width: 20%;
+}
+.box-f.footerContact {
+  width: 20%;
 }
 
 .box-footer .box-f.footerLogo {
