@@ -22,3 +22,8 @@
 .main-wrapper.-blog {
   display: flex;
 }
+.main-wrapper.-footer {
+  display: flex;
+  align-content: flex-end;
+  padding: 10px;
+}
