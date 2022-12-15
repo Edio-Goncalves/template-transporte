@@ -35,6 +35,14 @@
   color: var(--color-first);
 }
 
+.main-subtitle.-text-wite-3 {
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 500;
+  width: 65%;
+  color: var(--color-first);
+}
+
 .main-subtitle.-blog {
   font-family: "Montserrat";
   color: var(--color-second);
@@ -72,5 +80,6 @@
   background-position: center;
 }
 .main-subtitle.-width {
-  width: 90%;
+  width: 85%;
+  font-size: 16px;
 }

@@ -28,3 +28,12 @@
   width: 10%;
   transition: all 300ms;
 }
+
+.main-button.-message {
+  width: 40%;
+  font-size: 18px;
+  text-align: center;
+  background: var(--color-font-first);
+  border: 2px solid var(--color-first);
+  border-radius: 30px;
+}

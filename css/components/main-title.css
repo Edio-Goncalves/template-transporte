@@ -50,3 +50,11 @@
   color: var(--color-first);
   padding-top: 5%;
 }
+
+.main-title.-white-2 {
+  font-size: max(25px, 2vw);
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--color-first);
+  padding-top: 5%;
+}
