@@ -1,0 +1,76 @@
+.main-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.main-subtitle.-first {
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.main-subtitle.-second {
+  font-size: 12px;
+  color: var(--color-second);
+  font-weight: 400;
+  line-height: 28px;
+}
+.main-subtitle.-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-black-second);
+}
+
+.main-subtitle.-text-wite {
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-first);
+  max-width: 90%;
+}
+
+.main-subtitle.-text-wite-2 {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--color-first);
+}
+
+.main-subtitle.-blog {
+  font-family: "Montserrat";
+  color: var(--color-second);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  border: 2px solid #f0f0f6;
+  background-color: #fff;
+}
+
+.main-subtitle.-blogHeader {
+  line-height: 20px;
+  padding: 10px 30px;
+}
+
+.main-subtitle.-readme {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.main-subtitle.-readme:after {
+  content: "";
+  width: 20px;
+  height: 10px;
+  align-self: center;
+  margin-left: 5px;
+  background-image: url(../../assets/icon/redo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main-subtitle.-width {
+  width: 90%;
+}
