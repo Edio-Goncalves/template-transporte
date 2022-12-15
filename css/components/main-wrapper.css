@@ -18,3 +18,9 @@
 .main-wrapper.-support {
   padding-bottom: 6.5vw;
 }
+
+.main-wrapper.-blog {
+  display: flex;
+  padding-bottom: 5vmax;
+  padding-top: 5vmax;
+}

@@ -21,3 +21,33 @@
   font-size: 18px;
   padding-top: 10%;
 }
+
+.main-box.-blogHeader {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  width: 100%;
+  height: 50%;
+  background-image: url(../../assets/img/Shape.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main-box.-blogHeader.-order1 {
+  background-image: url(../../assets/img/Shape-1.png);
+}
+
+.main-box.-blogHeader.-order2 {
+  background-image: url(../../assets/img/Shape-2.png);
+}
+
+.main-box.-blogFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  height: 50%;
+  padding-top: 20px;
+}
