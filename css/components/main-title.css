@@ -8,6 +8,12 @@
 .main-title.-logo {
   font-size: 40px;
   margin-left: 10px;
+  color: var(--color-font-first);
+}
+
+.main-title.-logo.-footer {
+  font-size: 30px;
+  text-decoration: none;
 }
 
 .main-title.-first {

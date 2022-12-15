@@ -1,15 +1,1 @@
 /* Start arrange a conversation */
-.xxxx {
-  display: flex;
-  align-content: flex-end;
-  padding: 10px;
-  width: 1250px;
-}
-
-.zzzz {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  background-color: azure;
-  padding: 10px;
-}
