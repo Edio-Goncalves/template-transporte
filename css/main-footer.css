@@ -1,18 +1,25 @@
-.box-footer .box-f.footerLogo .-logo {
+.box-wrapper.footerLogo {
+  flex-direction: column;
+  width: 40%;
+}
+
+.box-wrapper.footerLogo .-logo {
   display: flex;
   align-items: center;
 }
-.box-footer .box-f.footerLogo .-logo .height {
+
+.box-wrapper.footerLogo .-logo .height {
   height: 40px;
   width: 40px;
   margin-right: 10px;
 }
 
-.box-f.footerLogo {
-  width: 40%;
+.box-wrapper.footerServices {
+  flex-direction: column;
+  width: 20%;
 }
 
-.box-f .mediasFooter {
+.box-wrapper .mediasFooter {
   display: flex;
   flex-direction: row;
   column-gap: 5px;
@@ -20,7 +27,6 @@
   bottom: 0;
 }
 
-/* medias */
 .mediasFooter .md {
   display: flex;
   width: 25px;
@@ -56,17 +62,40 @@
   transform: scale(1.05);
 }
 
-/* columns */
-.box-f.footerServices {
-  width: 20%;
-}
-.box-f.footerCompany {
-  width: 20%;
-}
-.box-f.footerContact {
+.box-wrapper.footerCompany {
+  flex-direction: column;
   width: 20%;
 }
 
-.box-footer .box-f.footerLogo {
+.box-wrapper.footerContact {
   flex-direction: column;
+  width: 20%;
+}
+
+.box-wrapper.footerContact .-li {
+  display: flex;
+  align-items: center;
+}
+
+.box-wrapper.footerContact .-li::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.email::before {
+  background-image: url(../assets/icon/ca.png);
+}
+
+.contact::before {
+  background-image: url(../assets/icon/ph.png);
+}
+
+.local::before {
+  background-image: url(../assets/icon/lc.png);
 }
