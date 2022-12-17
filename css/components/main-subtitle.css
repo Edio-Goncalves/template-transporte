@@ -5,38 +5,38 @@
 }
 
 .main-subtitle.-first {
-  font-size: 16px;
+  font-size: var(--font-16);
   line-height: 200%;
 }
 
 .main-subtitle.-second {
-  font-size: 12px;
+  font-size: var(--font-12);
   color: var(--color-second);
   font-weight: 400;
   line-height: 28px;
 }
 .main-subtitle.-text {
-  font-size: 18px;
+  font-size: var(--font-18);
   line-height: 28px;
   color: var(--color-black-second);
 }
 
 .main-subtitle.-text-wite {
-  font-size: 18px;
+  font-size: var(--font-18);
   line-height: 150%;
   color: var(--color-first);
   max-width: 90%;
 }
 
 .main-subtitle.-text-wite-2 {
-  font-size: 16px;
+  font-size: var(--font-16);
   line-height: 150%;
   font-weight: 400;
   color: var(--color-first);
 }
 
 .main-subtitle.-text-wite-3 {
-  font-size: 18px;
+  font-size: var(--font-18);
   line-height: 130%;
   font-weight: 500;
   width: 65%;
@@ -46,7 +46,7 @@
 .main-subtitle.-blog {
   font-family: "Montserrat";
   color: var(--color-second);
-  font-size: 16px;
+  font-size: var(--font-16);
   font-weight: 400;
   text-decoration: none;
   border: 2px solid #f0f0f6;
@@ -81,14 +81,15 @@
 }
 .main-subtitle.-width {
   width: 85%;
-  font-size: 16px;
+  font-size: var(--font-16);
 }
 .main-subtitle.-footer {
   padding-top: 5%;
-  font-size: 14px;
+  font-size: var(--font-14);
   font-weight: 400;
   line-height: 20px;
-  color: var(--color-black-first);
+  /* color: var(--color-black-first); */
+  color: crimson;
   width: 70%;
 }
 
@@ -99,21 +100,22 @@
 .main-subtitle.-footer .height {
   text-decoration: none;
   color: var(--color-black-first);
+  color: crimson;
   transition: all 200ms;
   cursor: pointer;
 }
 
 .main-subtitle.-footer .height:hover {
   color: var(--color-second);
-  font-size: 102%;
+  font-size: 0.9rem;
 }
 
 .main-subtitle.-copyFooter {
   text-align: center;
-  font-size: 14px;
+  font-size: var(--font-14);
+  color: crimson;
   font-weight: 500;
   line-height: 16px;
-  color: var(--color-black-first);
 
   border-top: 2px solid #f0f0f6;
   width: 100%;

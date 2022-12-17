@@ -1,1 +1,4 @@
-/* Start arrange a conversation */
+/* .testeClamp {
+  max-width: 50%;
+  font-size: clamp(10px, 0.5em + 0.5vw, 14px);
+} */

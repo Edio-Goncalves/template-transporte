@@ -6,24 +6,24 @@
 }
 
 .main-title.-logo {
-  font-size: 40px;
+  font-size: var(--font-40);
   margin-left: 10px;
   color: var(--color-font-first);
 }
 
 .main-title.-logo.-footer {
-  font-size: 30px;
+  font-size: var(--font-30);
   text-decoration: none;
 }
 
 .main-title.-first {
-  font-size: 32px;
+  font-size: var(--font-32);
   margin-left: 10px;
   line-height: 200%;
 }
 
 .main-title.-second {
-  font-size: 20px;
+  font-size: var(--font-20);
   line-height: 24px;
   font-weight: 600;
   color: var(--color-font-first);
@@ -31,26 +31,26 @@
 }
 
 .main-title.-gray {
-  font-size: 42px;
+  font-size: var(--font-42);
   font-weight: 700;
   color: var(--color-black-second);
 }
 
 .main-title.-third {
-  font-size: 36px;
+  font-size: var(--font-36);
   font-weight: 700;
   color: var(--color-font-first);
   padding-bottom: 5%;
 }
 
 .main-title.-orange {
-  font-size: 36px;
+  font-size: var(--font-36);
   font-weight: 800;
   color: var(--color-second);
 }
 
 .main-title.-white {
-  font-size: max(25px, 3vw);
+  font-size: var(--font-24);
   font-weight: 700;
   line-height: 130%;
   color: var(--color-first);
@@ -58,7 +58,7 @@
 }
 
 .main-title.-white-2 {
-  font-size: max(25px, 2vw);
+  font-size: var(--font-24);
   font-weight: 700;
   line-height: 130%;
   color: var(--color-first);
@@ -66,7 +66,7 @@
 }
 
 .main-title.-columnFooter {
-  font-size: 20px;
+  font-size: var(--font-20);
   text-decoration: underline;
   color: var(--color-second);
   font-weight: 700;
