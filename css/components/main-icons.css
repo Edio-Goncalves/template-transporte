@@ -4,17 +4,17 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  height: 34px;
-  width: 34px;
+  height: clamp(17px, 17px + 1.5vw, 34px);
+  width: clamp(17px, 17px + 1.5vw, 34px);
   margin-right: 10px;
   background: linear-gradient(60.02deg, #ff9933 13.48%, #f36c20 86.55%);
   border-radius: 50%;
 
+  background-color: red;
   font-family: "Poppins", sans-serif;
   color: var(--color-first);
 
   font-size: var(--font-18);
-  font-size: 16px;
 }
 
 .main-icons.-gradient {
@@ -23,8 +23,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 16px;
-  height: 128px;
-  width: 128px;
+  height: clamp(60px, 60px + 4vw, 128px);
+  width: clamp(60px, 60px + 4vw, 128px);
 
   background: linear-gradient(
     172.29deg,
@@ -36,4 +36,9 @@
 
 .main-icons.-gradient.-principles {
   margin-bottom: 3vw;
+}
+
+.main-icons.-gradient img {
+  max-width: 70%;
+  transform: translateY(8%);
 }
