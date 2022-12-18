@@ -7,8 +7,8 @@
 }
 
 .main-contact .contact {
-  margin-top: 25px;
-  margin-bottom: 20px;
+  margin-top: 1.7%;
+  margin-bottom: 1.5%;
   color: var(--color-font-first);
 }
 .main-contact .contact .icon {
@@ -29,26 +29,23 @@
   transition: 0.2s;
 }
 
-.main-contact .contact .icon.-em .link:hover {
-  color: var(--color-link-first);
+.main-contact .contact .icon::before {
+  content: "";
+  display: block;
+  width: clamp(17px, 17px + 1.5vw, 36px);
+  height: clamp(17px, 17px + 1.5vw, 36px);
+  margin-right: 1vw;
+  background-size: contain;
 }
 
 .main-contact .contact .icon.-ph::before {
-  content: "";
-  display: block;
-  width: 36px;
-  height: 36px;
-  margin-right: 20px;
-
   background-image: url(../../assets/icon/Icon-ph.png);
 }
 
 .main-contact .contact .icon.-em::before {
-  content: "";
-  display: block;
-  width: 36px;
-  height: 36px;
-  margin-right: 20px;
-
   background-image: url(../../assets/icon/Icon-em.png);
+}
+
+.main-contact .contact .icon.-em .link:hover {
+  color: var(--color-link-first);
 }
