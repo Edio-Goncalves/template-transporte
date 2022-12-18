@@ -12,6 +12,8 @@
 
   font-family: "Poppins", sans-serif;
   color: var(--color-first);
+
+  font-size: var(--font-18);
   font-size: 16px;
 }
 

@@ -18,7 +18,7 @@
 
 .main-box.-principles {
   width: 80%;
-  font-size: 18px;
+  font-size: var(--font-18);
   padding-top: 10%;
 }
 
