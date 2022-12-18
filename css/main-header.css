@@ -12,14 +12,14 @@
   align-items: center;
 }
 .main-header .logo .img {
-  width: 60px;
-  height: 60px;
+  width: clamp(30px, 30px + 2vw, 60px);
+  height: clamp(30px, 30px + 2vw, 60px);
 }
 
 .main-header .navigation {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 72.5%;
 
   font-family: "Poppins", sans-serif;
   font-size: var(--font-18);
@@ -49,7 +49,7 @@
 
 .main-header .navigation .action.main-button {
   color: var(--color-first);
-  margin-left: 70px;
+  margin-left: 5%;
 }
 
 .main-header .navigation .action.main-button:hover {
