@@ -18,6 +18,8 @@
 
 .banner-midle .wrapper .main-subtitle {
   font-size: max(15px, 1vw);
+  font-size: var(--font-18);
+  line-height: var(--line-25);
   width: 50%;
   padding-bottom: 2vw;
 }
