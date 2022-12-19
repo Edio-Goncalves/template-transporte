@@ -21,6 +21,7 @@
 
 .main-wrapper.-blog {
   display: flex;
+  margin-bottom: 3%;
 }
 
 .main-wrapper.-footer {

@@ -49,25 +49,36 @@
   color: var(--color-second);
   font-size: var(--font-16);
   font-weight: 400;
-  text-decoration: none;
-  border: 2px solid #f0f0f6;
-  background-color: #fff;
 }
 
 .main-subtitle.-blogHeader {
   line-height: var(--line-25);
-  padding: 10px 30px;
+  text-decoration: none;
+  transition: 100ms linear;
+}
+
+.main-subtitle.-blogHeader:hover {
+  font-size: var(--font-16-2);
 }
 
 .main-subtitle.-readme {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  border: 2px solid #f0f0f6;
+  background-color: #fff;
 
   width: 100%;
   padding-top: 1.2vw;
   padding-bottom: 1.2vw;
   position: absolute;
   bottom: 0;
+  transition: 100ms;
+}
+.main-subtitle.-readme:hover {
+  font-size: var(--font-16-2);
+  font-weight: 500;
 }
 
 .main-subtitle.-readme:after {

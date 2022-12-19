@@ -39,8 +39,10 @@
   flex-direction: column;
   width: 30%;
   height: 472px;
+  height: clamp(265px, 265px + 13vw, 472px);
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
   border-radius: 10px;
+  margin-top: 2%;
 }
 
 .box-wrapper.-message {

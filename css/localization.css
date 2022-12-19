@@ -47,8 +47,10 @@
   font-size: var(--font-20-2);
   text-align: center;
   line-height: var(--line-25);
+  transition: 100ms;
 }
 
 .wrapper-localization .link-local:hover {
-  text-shadow: 1px 1px 1px var(--color-second);
+  font-size: var(--font-20-3);
+  line-height: var(--line-24);
 }

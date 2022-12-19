@@ -23,6 +23,7 @@
 }
 
 .main-box.-blogHeader {
+  box-sizing: content-box;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -31,7 +32,21 @@
   height: 50%;
   background-image: url(../../assets/img/Shape.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.main-box.-blogHeader .boxSize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 25%;
+  transform: translateY(20%);
+  border: 2px solid #f0f0f6;
+  background-color: #fff;
+  text-decoration: none;
 }
 
 .main-box.-blogHeader.-order1 {
