@@ -40,3 +40,8 @@
   border: 2px solid var(--color-first);
   border-radius: 30px;
 }
+
+.main-button.-message:hover {
+  background-color: #ffffff;
+  border-color: var(--color-second);
+}
