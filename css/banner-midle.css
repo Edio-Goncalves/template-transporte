@@ -3,7 +3,8 @@
   justify-content: center;
   background-image: url(../assets/img/bkg_flag.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .banner-midle .wrapper {
