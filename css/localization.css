@@ -9,6 +9,9 @@
   padding-top: 4%;
   padding-bottom: 4%;
 }
+.wrapper-localization .-space img {
+  max-width: 70%;
+}
 
 .wrapper-localization .box-map {
   width: 100%;
@@ -22,6 +25,8 @@
 .wrapper-localization .box-local {
   height: 102px;
   width: 285px;
+  height: clamp(45px, 45px + 2vw, 102px);
+  width: clamp(130px, 130px + 5vw, 285px);
   display: flex;
   align-items: center;
 
@@ -31,15 +36,19 @@
 
   background-image: url(../../assets/img/local.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .wrapper-localization .link-local {
   transform: translate(-5%, -18%);
-  margin-left: 60px;
+  margin-left: 25%;
   text-decoration: none;
-  color: white;
-  font-size: var(--font-20);
+  color: var(--color-first);
+  font-size: var(--font-20-2);
   text-align: center;
   line-height: var(--line-25);
+}
+
+.wrapper-localization .link-local:hover {
+  text-shadow: 1px 1px 1px var(--color-second);
 }
