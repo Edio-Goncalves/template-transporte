@@ -13,50 +13,54 @@
   display: flex;
   align-items: center;
 }
+
 .main-header .logo .img {
   width: clamp(30px, 30px + 2vw, 60px);
   height: clamp(30px, 30px + 2vw, 60px);
 }
 
-.main-header .navigation {
+.main-header .mobile-menu .navigation ul {
   display: flex;
-  justify-content: space-between;
-  width: 72.5%;
+  flex-direction: row;
+  align-items: center;
 
   font-family: "Poppins", sans-serif;
   font-size: var(--font-18);
   font-weight: 500;
 }
-
-.main-header .navigation .action {
+.main-header .mobile-menu .navigation ul .action {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
   color: var(--color-black-first);
   transition: 100ms linear;
+  padding: 0.9vw;
 }
 
-.main-header .navigation .action .seta {
+.main-header .mobile-menu .navigation ul .action:hover {
+  transition: 100ms linear;
+  color: var(--color-link-first);
+  transform: scale(1.02);
+}
+
+.main-header .mobile-menu .navigation ul .action .seta {
   font-size: var(--font-28);
   margin-left: 5px;
   transform: rotate(90deg);
   transition: 300ms;
 }
 
-.main-header .navigation .action:hover {
+.main-header .mobile-menu .navigation ul .action .seta:hover {
   transition: 100ms linear;
   color: var(--color-link-first);
   transform: scale(1.02);
 }
 
-.main-header .navigation .action.main-button {
+.main-header .mobile-menu .navigation ul .main-button.action {
+  margin-left: clamp(1vw, 1vw + 1.5vw, 4vw);
   color: var(--color-first);
-  margin-left: 5%;
 }
 
-.main-header .navigation .action.main-button:hover {
+.main-header .mobile-menu .navigation ul .main-button.action:hover {
   color: var(--color-second);
-  background: var(--color-second-opacity);
-
-  border-radius: 10px;
 }
