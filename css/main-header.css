@@ -47,13 +47,6 @@
   font-size: var(--font-28);
   margin-left: 5px;
   transform: rotate(90deg);
-  transition: 300ms;
-}
-
-.main-header .mobile-menu .navigation ul .action .seta:hover {
-  transition: 100ms linear;
-  color: var(--color-link-first);
-  transform: scale(1.02);
 }
 
 .main-header .mobile-menu .navigation ul .main-button.action {
